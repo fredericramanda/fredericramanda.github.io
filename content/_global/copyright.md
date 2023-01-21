@@ -1,7 +1,7 @@
 +++
 fragment = "copyright"
 #disabled = true
-date = "2016-09-07"
+date = "2020-10-10"
 weight = 1250
 #background = ""
 

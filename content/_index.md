@@ -1,5 +1,5 @@
 +++
-title = "Syna Theme"
-date = "2017-09-07"
-description = "Open Source Theme from Okkur for your next project"
+title = "YZY Solutions"
+date = "2020-10-10"
+description = "YZY Solutions, l'atelier de développement de vos applications"
 +++

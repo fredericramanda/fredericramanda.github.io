@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "/"
-languageCode = "en-us"
-title = "Okkur - Syna"
+baseurl = "https://www.yzysolutions.com"
+languageCode = "fr-FR"
+title = "YZY Solutions - Logiciels et Services"
 theme = "syna"
 enableGitInfo = true
 version = "0.17.3"
@@ -24,8 +24,8 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "YZY Solutions"
+  description = "Des logiciels et applications pour votre société et organisation"
 
   [params.style]
     #background = "secondary"
@@ -42,7 +42,7 @@ lastmod = ["lastmod", ":git", "date"]
   [params.analytics.piwik]
     #url = ""
     #id = ""
-    #domain = "" # Track subdomains via "*.example.com"
+    #domain = "" # Track subdomains via "*.yzysolutions.com"
     # Optional hash for integrity check
     #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
 
@@ -67,52 +67,60 @@ lastmod = ["lastmod", ":git", "date"]
 # configurable.
 [[menu.main]]
   url = "/"
-  name = "Home"
+  name = "Acceuil"
   weight = 10
 
 [[menu.main]]
-  url = "/about"
-  name = "About Us"
-  weight = 20
+  identifier = "solutions"
+  url = "/solutions"
+  name = "Solutions"
+  weight = 21
+
+[[menu.main]]
+  identifier = "Prestations"
+  url = "/prestations"
+  name = "Prestations"
+  weight = 23
+
+[[menu.main]]
+  identifier = "Réalisations"
+  url = "/references"
+  name = "Réalisations"
+  weight = 24
 
 [[menu.main]]
   url = "#contact"
   name = "Contact"
   weight = 30
 
+[[menu.main]]
+  url = "/about"
+  name = "A propos"
+  weight = 40  
+
 [[menu.footer]]
-  url = "#"
-  name = "Link"
+  url = "/realisations"
+  name = "Réalisations"
   weight = 10
 
 [[menu.footer]]
-  url = "#"
-  name = "Long Link"
-  weight = 30
-
-[[menu.footer]]
-  url = "#"
-  name = "Tiny Link"
-  weight = 30
+  url = "/people"
+  name = "Nous connaître"
+  weight = 20
 
 [[menu.copyright_footer]]
   url = "/about"
-  name = "About Us"
+  name = "A propos"
   weight = 10
-
-[[menu.copyright_footer]]
-  url = "#"
-  name = "Another Link"
-  weight = 30
 
 [[menu.footer_social]]
   weight = 20
   name = "facebook"
   pre = "fab fa-facebook-f"
-  url = "#"
+  url = "https://web.facebook.com/yzysolutions/"
 
 [[menu.footer_social]]
   weight = 30
   name = "linkedin"
   pre = "fab fa-linkedin-in"
-  url = "#"
+  url = "https://www.linkedin.com/in/fredericramandaniarivo"

@@ -1,21 +1,22 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2020-10-10"
 weight = 1200
 #background = ""
 
-menu_title = "Link Title"
+menu_title = "Liens Utiles"
 
 [asset]
-  title = "Logo Title"
+  title = "YZY Solutions"
   image = "logo.svg"
-  text = "Logo Subtext"
+  text = "open for success"
   url = "#"
 +++
 
-#### Description Title
+#### Des logiciels pour vos besoins
 
-Project description such as:
-Open source theme for your next project
-Provided by Okkur Labs
+Nous créons des solutions simples
+* Gestion de Ressources Humaines et **Paie**
+* Etat Civil et logiciels pour l'Administration
+* Point de vente, Gestion Commerciale, Comptabilités, Transports...
