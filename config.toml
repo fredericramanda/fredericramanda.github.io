@@ -1,0 +1,126 @@
+# Site settings
+baseurl = "https://www.yzysolutions.com"
+languageCode = "fr-FR"
+title = "YZY Solutions - Logiciels et Services"
+theme = "syna"
+enableGitInfo = true
+version = "0.17.3"
+
+# Google Analytics tracking
+googleAnalytics = ""
+
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[frontmatter]
+date = ["date", "lastmod"]
+lastmod = ["lastmod", ":git", "date"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+     unsafe = true
+
+[params]
+  name = "YZY Solutions"
+  description = "Des logiciels et applications pour votre société et organisation"
+
+  [params.style]
+    #background = "secondary"
+
+  # Theme customizations
+  # Assets relative to 'static/'
+  [params.custom]
+    favicon = "favicon.ico"
+    favicon_ico_sizes = "16x16 32x32"
+    favicon_png = "favicon.png"
+    favicon_svg = "favicon.svg"
+
+  # Piwik tracking
+  [params.analytics.piwik]
+    #url = ""
+    #id = ""
+    #domain = "" # Track subdomains via "*.yzysolutions.com"
+    # Optional hash for integrity check
+    #hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Optional, global disable switch for fontawesome related files
+  # For custom fontawesome js files use the custom.js method
+  [params.fontawesome]
+    disabled = false
+    pro = false
+
+  [params.colors]
+    primary = "#00838F"
+    secondary = "#868e96"
+    success = "#008f54"
+    info = "#00c9dc"
+    warning = "#fdf314"
+    danger = "#dc1200"
+    light = "#f8f9fa"
+    dark = "#343a40"
+
+# main/prepend/postpend menus are displayed in nav fragment.
+# Keep an eye out for updates. These will be moved out to make navbar more
+# configurable.
+[[menu.main]]
+  url = "/"
+  name = "Acceuil"
+  weight = 10
+
+[[menu.main]]
+  identifier = "solutions"
+  url = "/solutions"
+  name = "Solutions"
+  weight = 21
+
+[[menu.main]]
+  identifier = "Prestations"
+  url = "/prestations"
+  name = "Prestations"
+  weight = 23
+
+[[menu.main]]
+  identifier = "Réalisations"
+  url = "/references"
+  name = "Réalisations"
+  weight = 24
+
+[[menu.main]]
+  url = "#contact"
+  name = "Contact"
+  weight = 30
+
+[[menu.main]]
+  url = "/about"
+  name = "A propos"
+  weight = 40  
+
+[[menu.footer]]
+  url = "/realisations"
+  name = "Réalisations"
+  weight = 10
+
+[[menu.footer]]
+  url = "/people"
+  name = "Nous connaître"
+  weight = 20
+
+[[menu.copyright_footer]]
+  url = "/about"
+  name = "A propos"
+  weight = 10
+
+[[menu.footer_social]]
+  weight = 20
+  name = "facebook"
+  pre = "fab fa-facebook-f"
+  url = "https://web.facebook.com/yzysolutions/"
+
+[[menu.footer_social]]
+  weight = 30
+  name = "linkedin"
+  pre = "fab fa-linkedin-in"
+  url = "https://www.linkedin.com/in/fredericramandaniarivo"
