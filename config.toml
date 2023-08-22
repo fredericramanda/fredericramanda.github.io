@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.yzysolutions.com"
+baseurl = "https://fredericramanda.github.io"
 languageCode = "fr-FR"
 title = "YZY Solutions - Logiciels et Services"
 theme = "syna"
